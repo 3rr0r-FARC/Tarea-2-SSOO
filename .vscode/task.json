@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "filtronormal.cpp",
+                "-o",
+                "filtronormal",
+                "`pkg-config", "--cflags", "--libs", "opencv`"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
