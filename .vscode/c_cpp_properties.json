@@ -3,11 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/include",
-                "/usr/local/lib",
-                "/home/fabianlinux/build/include",
-                "/usr/local/include/opencv4"
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
