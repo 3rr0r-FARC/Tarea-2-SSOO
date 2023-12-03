@@ -1,0 +1,9 @@
+Primero se necesita ubicarse en la carpeta especifica del programa secuencial para poder ejecutar el makefile
+
+una vez ubicado en la direccion del programa secualcial escribe lo siguiente en la termina
+
+make
+
+./secuencial "Imagen_a_color.jpg" "Imagen_gris.jpg"
+
+note que el nombre de las imagenes lo puede modificar de acuerdo a sus necesitades por si desea intentarlo con otra imagen
