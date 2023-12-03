@@ -1,0 +1,14 @@
+Primero se necesita ubicarse en la carpeta especifica del programa que utiliza hebras para poder ejecutar el makefile
+
+una vez ubicado en la direccion del programa escribe lo siguiente en la terminal:
+
+
+
+make
+./hebras "Imagen_a_color.jpg" "Imagen_gris.jpg" 4
+
+
+
+
+siendo 4 un numero elegido al azar para asignar la cantidad de hilos que se utilizaran, este valor puede ser modificado a sus necesidades.
+note que el nombre de las imagenes lo puede modificar de acuerdo a sus necesitades por si desea intentarlo con otra imagen.
